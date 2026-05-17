@@ -1,0 +1,32 @@
+{
+  "name": "dev-assistant-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for Dev Assistant Mobile Learning App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "flutter",
+    "nodejs",
+    "mysql",
+    "rest-api",
+    "chatbot",
+    "ai"
+  ],
+  "author": "tayyab602",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-validator": "^7.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
